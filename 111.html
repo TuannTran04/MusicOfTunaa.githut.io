@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700&subset=vietnamese" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.6435-1/p320x320/193582967_1282991145491474_7379236538048424152_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=piKBsDsX1ToAX_phgaM&_nc_ht=scontent.fsgn4-1.fna&oh=7c5f13538f5296d1267fd3aa4c7a5583&oe=618022D6">
+
+    <link rel="stylesheet" href="./assets/111.css">
+    <title>Music of Tuna</title>
+</head>
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h4>Now playing:</h4>
+                <h2>String 57th & 9th</h2>
+            </header>
+      
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('https://kenh14cdn.com/2020/10/4/photo-1-1601813372017758166996.jpg')"></div>
+                <input type="range" name="" id="volume-slider" min="0" max="100" value="50" step="1">
+                <button id="mute-btn">Mute</button>
+            </div>
+      
+            <!-- Control -->
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+      
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+      
+            <audio id="audio" src=""></audio>
+        </div>
+      
+        <!-- Playlist -->
+        <div class="playlist">
+           
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>Code by Tuấn Trần</p>
+            <p>Donate cho mình: 1018844306</p>
+        </div>
+        <ul class="logo">
+            <li>
+                <a href="https://www.facebook.com/Heoaz456123">facebook</a>
+                <a href="https://www.instagram.com/tunadayy_/">intagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="111.js"></script>
+</body>
+</html>
